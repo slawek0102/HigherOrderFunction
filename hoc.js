@@ -1,14 +1,13 @@
 
 // https://www.youtube.com/watch?v=jE7MAh2EgSQ
 
+let tab = [1,2,4,6,8]
 
-higher = () =>{
-    return jajo = () =>{
-        console.log(5)
-    }
+let negative = (x) =>{
+    console.log(-x)
 }
 
 
-let h = higher();
+let x = tab.forEach(negative)
 
-h()
+console.log(x)
