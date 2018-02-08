@@ -1,13 +1,11 @@
 
 // https://www.youtube.com/watch?v=jE7MAh2EgSQ
 
-let tab = [1,2,4,6,8]
+https://www.youtube.com/watch?v=rRgD1yVwIvE
 
-let negative = (x) =>{
-    console.log(-x)
+let first  = (array, callback) => {
+        callback(array)
 }
 
 
-let x = tab.forEach(negative)
-
-console.log(x)
+first([2,3,5], console.log)
